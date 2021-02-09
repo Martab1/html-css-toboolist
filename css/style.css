@@ -33,13 +33,70 @@ h1{
 .section{
     height: 60px;
     border-bottom: 2px solid lightgrey;
+    
 }
 
 
+.button{
+    display: inline-block;
+}
+
 
 .add-task{
+    
     background: lightskyblue;
-    width: 70px;
+    width: 80px;
     height:30px;
+    margin-left: 40px;
     border-radius: 5px;
+
+}
+
+
+.add-section{
+    background: #fff;
+    width: 90px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+
+
+.add1{
+    color: #fff;
+    font-size: 13px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.add2{
+    color: lightgray;
+    font-size: 13px;
+    line-height: 30px;
+    padding-left: 10px;
+    
+}
+
+
+.content{
+   margin-left: 50px;
+   margin-top:50px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    list-style-position: inside;
+    margin-top:15px;
+    
+}
+
+.v{display: inline-block;
+    color:green;
+    width: 16px;
+    height: 16px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 10px;
+    line-height: 16px ;
 }
