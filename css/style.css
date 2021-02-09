@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:#c3bfbf2e;
+}
+
+/* HEADER */
+
+.header{
+    height: 80px;
+    padding: 10px;
+    background: #fff;
+}
+
+h1{
+    display: inline-block;
+    }
+
+/* MAIN */
+
+.contenitor{
+    margin:auto;
+    margin-top: 50px;
+    background: #fff;
+    width: 800px;
+    height:500px;
+}
+
+.section{
+    height: 60px;
+    border-bottom: 2px solid lightgrey;
+}
+
+
+
+.add-task{
+    background: lightskyblue;
+    width: 70px;
+    height:30px;
+    border-radius: 5px;
+}
