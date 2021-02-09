@@ -2,6 +2,7 @@
     margin:0;
     box-sizing: border-box;
     
+    
 }
 
 body{
@@ -14,25 +15,39 @@ body{
     height: 80px;
     padding: 10px;
     background: #fff;
+    
 }
 
 h1{
     display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    
     }
 
-                              /* MAIN */
+   .logo{
+        vertical-align: middle;
+    }
+
+                              /* CONTENITOR*/
+
+
 
 .contenitor{
+    font-family: 'Roboto', sans-serif;
     margin:auto;
     margin-top: 50px;
     background: #fff;
     width: 800px;
+    border-radius: 5px;
     
 }
 
 .section{
     height: 60px;
     border-bottom: 2px solid lightgrey;
+    padding-top: 20px;
+    
     
 }
 
@@ -44,7 +59,7 @@ h1{
 
 .add-task{
     
-    background: lightskyblue;
+    background: #2196f3;
     width: 80px;
     height:30px;
     margin-left: 40px;
@@ -84,11 +99,24 @@ h1{
    margin-top:50px;
 }
 
+
+.arrow{
+    margin-right:5px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    
+}
+
+/* LIST */
+
 ul{
     list-style: none;
     padding-left: 0;
     list-style-position: inside;
-    margin-top:15px;
+    margin-top:10px;
     
 }
 
@@ -100,19 +128,18 @@ ul{
     border-radius: 50%;
     margin-right: 10px;
     line-height: 16px ;
+    text-align: center;
 
 }
 .v{
     color:green;
+    font-size: 13px;
 }
 
 .x{
 color:red;
 font-size: 8px;
-text-align: center;
-
 }
-
 
 
 span, ul{
@@ -123,23 +150,42 @@ li{
     line-height: 40px;
 }
 
+/* TICKET */
+
 .ticket{
     display: inline-block;
     width:60px;
     height: 20px;
-    background:lightskyblue;
-    border-radius: 8px;;
     font-size: 12px;
+    background:lightskyblue;
+    border-radius: 8px;
+    font-size: 10px;
     color: #fff;
     text-align: center;
     line-height:20px ;
 }
 
 .purple{
-    background-color: violet;
+    background-color:#8616bfbf;
 }
 
-h3{
-    margin-top: 20px;
+.editorial{
+    background-color: #2196f3;
 }
+.green{
+    background-color: #1b9da5ab;
+}
+
+.orange{
+    background-color: #e69328;
+}
+
+.pink{
+    background-color: #d857c8e0;
+}
+
+.olive{
+    background-color: #8bbf3ac9;
+}
+
 
